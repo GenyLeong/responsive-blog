@@ -92,6 +92,11 @@ font-size: 1rem;
 	background-color:#2D2735;
 }
 
+footer.section-color {
+	display: block;
+	padding: 5px 0;
+}
+
 @media screen and (max-width : 992px) {
 .logo-nav {
 width: 100%;

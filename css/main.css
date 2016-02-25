@@ -4,8 +4,8 @@ body{
 	font-family: 'Open Sans', Arial;
 }
 .logo-nav{
-	width: 40%;
 	height: auto !important;
+	width: 40%;
 }
 
 nav{
@@ -24,8 +24,8 @@ nav{
 }
 
 .a-nav{
-margin: 7px;
-font-size: 1rem;
+	font-size: 1rem;
+	margin: 7px;
 }
 
 .section-bg{
@@ -34,29 +34,29 @@ font-size: 1rem;
     padding-bottom: 28px;
 }
 .flower-section{
-    background: url('../image/header-image.jpg');
-    background-repeat: no-repeat;
     background-position: center;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    background-repeat: no-repeat;
     background-size: cover;
+    background: url('../image/header-image.jpg');
     height: 400px;
+    padding-bottom: 21px;
+    padding-top: 21px;
 }
 
 .box-text{
     background-color: rgba(0,0,0,0.6);
-    width: 50%;
     height: auto !important;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    position: relative;
     left: 25%;
+    padding-bottom: 21px;
+    padding-top: 21px;
+    position: relative;
     top: 5rem;
+    width: 50%;
 }
 
 .title-box{
-	font-family: 'Courgette';
 	color: #F7BA6A;
+	font-family: 'Courgette';
 }
 
 .text-box{
@@ -99,23 +99,23 @@ footer.section-color {
 
 @media screen and (max-width : 992px) {
 .logo-nav {
-width: 100%;
-height: auto !important;
-}
+	height: auto !important;
+	width: 100%;
+	}
 
 .container{
-padding-bottom: 7px;
-}
+	padding-bottom: 7px;
+	}
 
 .brand-logo{
 	width: 28%;
-}
+	}
 }
 
 @media screen and (max-width: 770px) {
 	.title-box{
-	font-family: 'Courgette';
 	color: #F7BA6A;
+	font-family: 'Courgette';
 	font-size: 2rem;
 	}
 }
@@ -123,5 +123,5 @@ padding-bottom: 7px;
 @media screen and (max-width: 600px) {
 	.brand-logo{
 	width: 30%;
-}
+	}
 }

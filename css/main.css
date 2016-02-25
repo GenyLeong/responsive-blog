@@ -1,51 +1,122 @@
 /* Inserta tu codigo aqui */
 body{
 	font-size: 15px;
+	font-family: 'Open Sans', Arial;
 }
-
-img{
-	width: 100%;
+.logo-nav{
+	width: 40%;
 	height: auto !important;
 }
 
-a{
-	text-decoration: none;
+nav{
+	background-color: transparent;
+	box-shadow: none;
 }
 
 .bg-color{
-	background-color: #1C1821;
+	background-color: rgba(0,0,0,0.8);
+	padding-bottom: 14px;
 }
 
-#navigation{
-	float: right;
-	font-family: 'Open Sans', Arial;
+.navigation{
 	font-weight: 400;
 	font-style: italic;
 }
 
 .a-nav{
-	margin: 7px;
-    font-size: 1.5rem;
+margin: 7px;
+font-size: 1rem;
 }
-
-.mt-56{
-	margin-top: 56px;
-}
-/* Responsive */
 
 .section-bg{
 	background-color: #2D2735;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
-
 .flower-section{
-	background: url('../image/header-image.jpg');
-	background-size: cover;
+    background: url('../image/header-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background-size: cover;
+    height: 400px;
 }
 
-@media screen and (max-width : 920px) {
+.box-text{
+    background-color: rgba(0,0,0,0.6);
+    width: 50%;
+    height: auto !important;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    position: relative;
+    left: 25%;
+    top: 5rem;
+}
 
+.title-box{
+	font-family: 'Courgette';
+	color: #F7BA6A;
+}
+
+.text-box{
+	color: white;
+}
+
+.card{
+	margin: 0.5rem 1rem 0rem 1rem;
+}
+
+.margin-video{
+	margin: 1rem 1rem 0rem 1rem !important;
+}
+
+.section-color{
+	background-color: #1C1821 !important;
+	box-shadow: none;
+}
+
+.section-color p{
+	color: white !important;
+}
+
+.card-reveal{
+	transform: translateY(-50%) !important;
+}
+
+.pr-search{
+	padding-right: 2.5rem !important; 
+}
+
+.social-color{
+	background-color:#2D2735;
+}
+
+@media screen and (max-width : 992px) {
+.logo-nav {
+width: 100%;
+height: auto !important;
+}
+
+.container{
+padding-bottom: 7px;
+}
+
+.brand-logo{
+	width: 28%;
+}
+}
+
+@media screen and (max-width: 770px) {
+	.title-box{
+	font-family: 'Courgette';
+	color: #F7BA6A;
+	font-size: 2rem;
+	}
 }
 
 @media screen and (max-width: 600px) {
-
+	.brand-logo{
+	width: 30%;
+}
 }

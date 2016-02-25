@@ -28,6 +28,14 @@ margin: 7px;
 font-size: 1rem;
 }
 
+.side-nav-style{
+	background-color: #1C1821;
+}
+
+.side-nav-style a{
+	color: white;
+}
+
 .section-bg{
 	background-color: #2D2735;
     padding-top: 28px;
